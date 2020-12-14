@@ -24,3 +24,40 @@ border: dashed 1px red;
 .menu__item:last-child {
   padding-right: 0;
 }
+
+.main-section {
+  display: flex;
+justify-content: space-between;
+border: dashed 1px red;
+ margin: auto;
+}
+
+.main-content {
+  display:  block;
+border: dashed 1px red;
+padding: 102px 0 0 0;
+}
+
+.main-content__title {
+display: block;
+border: dashed 1px red;
+padding: 0 30% 100px 0;
+}
+
+.main-content__description {
+  display: block;
+  border: dashed 1px red;
+  margin: 0 0 41px 0;
+}
+
+.main__button {
+  display: block;
+  border: dashed 1px red;
+  padding: 14px 16px;
+}
+
+.image-content {
+display: flex;
+justify-content: space-between;
+border: dashed 1px red;
+}
