@@ -41,7 +41,7 @@
 }
 
 .main-content__title {
-  font-family:Roboto
+font-family: Roboto;
   display: block;
   border: dashed 1px red;
   padding: 0 30% 100px 0;
