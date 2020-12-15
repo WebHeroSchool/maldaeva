@@ -1,7 +1,6 @@
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
@@ -20,7 +19,6 @@
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child {
@@ -30,37 +28,31 @@
 .main-section {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px red;
   margin: auto;
 }
 
 .main-content {
-  display:  block;
-  border: dashed 1px red;
+  display: block;
   padding: 102px 0 0 0;
 }
 
 .main-content__title {
-font-family: Roboto;
+  font-family: Roboto;
   display: block;
-  border: dashed 1px red;
   padding: 0 30% 100px 0;
 }
 
 .main-content__description {
   display: block;
-  border: dashed 1px red;
   margin: 0 0 41px 0;
 }
 
 .main__button {
   display: block;
-  border: dashed 1px red;
   padding: 14px 16px;
 }
 
 .image-content {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px red;
 }
