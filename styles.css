@@ -14,7 +14,7 @@
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif
 }
 
-.logo_circle {
+.logo__circle {
   position: absolute;
   width: 28px;
   height: 28px;
@@ -22,14 +22,14 @@
   opacity: .7;
 }
 
-.logo_circle__color_dark-blue{
+.logo__circle__color_dark-blue{
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   background: #0056EC;
 }
 
-.logo_circle__color_blue{
+.logo__circle__color_blue{
   left: 8px;
   top 56%;
   transform: translateY(+34%);
@@ -42,11 +42,36 @@
 }
 
 .menu__item {
-  padding: 0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu__item:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:hover {
+  opacity: .5;
+}
+
+.menu__item:hover:after{
+  opacity: 1;
+  width: 100%
 }
 
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right:0;
 }
 
 .main-section {
