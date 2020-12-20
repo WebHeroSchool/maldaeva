@@ -9,7 +9,31 @@
 }
 
 .logo {
-  padding: 40px 0;
+  position: relative;
+  padding: 40px 0 40px 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif
+}
+
+.logo_circle {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo_circle__color_dark-blue{
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0056EC;
+}
+
+.logo_circle__color_blue{
+  left: 8px;
+  top 56%;
+  transform: translateY(+34%);
+  background: #C8D8FB;
 }
 
 .menu {
