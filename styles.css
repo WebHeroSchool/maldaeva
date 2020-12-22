@@ -6,6 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -74,34 +75,21 @@
   margin-right:0;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
+.main {
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg)
 }
 
-.main-content {
-  display: block;
-  padding: 102px 0 0 0;
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
 }
 
-.main-content__title {
-  font-family: Roboto;
-  display: block;
-  padding: 0 30% 100px 0;
-}
-
-.main-content__description {
-  display: block;
+.main__subtitle {
   margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
-  display: block;
-  padding: 14px 16px;
-}
-
-.image-content {
-  display: flex;
-  justify-content: space-between;
+font: 14px/16px Roboto, arial, helvetica, sans-serif;
 }
