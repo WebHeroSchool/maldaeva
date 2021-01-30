@@ -1,5 +1,5 @@
 body {
-  margin:0;
+  margin: 0;
 }
 
 .wrapper {
@@ -16,7 +16,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/32px pt_serif,arial, helvetica, sans-serif;
+  font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -41,8 +41,8 @@ body {
 }
 
 .menu {
-  /*display: flex;
-  align-items: center;*/
+  /* display: flex;
+  align-items: center; */
   padding-top: 51px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
@@ -70,11 +70,11 @@ body {
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .menu__item:hover::after {
@@ -84,7 +84,7 @@ body {
 
 .main {
   padding: 206px 63% 181px 0;
-  background: bottom right no-repeat url(img/mainimg.svg)
+  background: bottom right no-repeat url(img/mainimg.svg);
 }
 
 .main__title {
@@ -93,7 +93,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: #ecf3ff;
 }
 
 .main__subtitle {
@@ -111,7 +111,7 @@ body {
   background: #0056EC;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .main__button:hover {
