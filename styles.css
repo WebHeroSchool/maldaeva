@@ -3,8 +3,8 @@ body {
   margin: 0;
 }
 /* .menu__btn, .menu__box, #menu__toggle {
-  display:none; */
-}
+  display:none;
+  } */
 
 .wrapper {
   margin: auto;
@@ -47,7 +47,7 @@ body {
 .menu {
 /*  display: flex;
   align-items: center; */
-  padding-top: 51px;
+  padding-top: 48px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -60,7 +60,8 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-left: 13px;
+  margin-right: 13px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -102,7 +103,7 @@ body {
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -111,17 +112,19 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 55px 0;
+  padding-right: 25%;
   font: 22px/26px Roboto, arial, helvetica, sans-serif;
   /* padding-right: 20%; *//
 }
 
 .main__button {
-  padding: 14px 16px; /* можно решить проблему с кнопкой */
-  margin-right: 200px; /*можно решить проблему с кнопкой */
+  margin-left: 2px;
+  padding: 18px 36px; /* можно решить проблему с кнопкой */
+  /*margin-right: 200px; /*можно решить проблему с кнопкой */
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
-  widows: 271;
+  width: 300px;
   height: 57px;
   background: #0056EC;
   text-decoration: none;
