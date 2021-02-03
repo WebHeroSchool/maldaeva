@@ -166,7 +166,9 @@ body {
 @media (max-width: 768px) {
 
   .wrapper {
-  margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .header {
@@ -177,55 +179,56 @@ body {
   display: none;
 }
 
-.logo__text {
-display: none;
+  .logo__text {
+  display: none;
 }
 
-.logo {
-  margin-top: 0;
-  margin-left: 6%;
+  .logo {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  padding-top: 30px;
 }
 
-.logo__circle {
-  position: fixed;
-  margin: 24px;
+  .logo__circle {
+    position: absolute;
+    margin: 10px;
   }
 
-.logo__circle__color_dark-blue {
-  position: fixed;
-  left: 0;
-  top: 24px;
-  margin: 24px;
+  .logo__circle__color_dark-blue {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.logo__circle_color_blue {
-    position: fixed;
+  .logo__circle_color_blue {
     left: 8px;
-    top: 31px;
-    margin: 24px;
+    top: 56%;
   }
 
   .main {
-  text-align: center;
-  padding: 36% 0 36% 0;
-  background-size: 36%;
-  background-position; top center;
+   padding: 64% 0 10px 0;
+   text-align: center;
+   background: top no-repeat url(img/mainimgmini.svg)
   }
 
   .main__title {
+
+  padding-right: 0;
+  margin-bottom: 30px;
   text-align: center;
-  margin-bottom: 44px;
-  font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 30px/40px pt_serifbold, arial, helvetica, sans-serif;
+    }
+
+  .main__subtitle {
+  margin: 0;
+  padding: 0;
+  font: bold 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
-.main__subtitle {
-text-align: center;
-  margin-bottom: 25px;
-  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
-}
-
 .main__button {
-  text-align: center;
+  margin-top: 6%;
+  padding-bottom: 5px;
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
 }
 
