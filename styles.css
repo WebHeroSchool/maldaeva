@@ -159,7 +159,7 @@
 
   .main{
     padding:0 63% 130px 0;
-    background: top right no-repeat url(img/mainImg.svg);
+    background: top right no-repeat url(img/mainimg.svg);
 }
 
   .main__title {
@@ -238,7 +238,7 @@
 
   .main {
     padding: 16px 53% 130px 0;
-    background: top right no-repeat url(img/mainImgmiddle1.svg);
+    background: top right no-repeat url(img/mainimgmiddle1.svg);
     background-size: 53%;
 }
 }
@@ -314,7 +314,7 @@
 
   .main {
     padding: 20px 56% 80px 0;
-    background: top right no-repeat url(img/mainImgmiddle1.svg);
+    background: top right no-repeat url(img/mainimgmiddle1.svg);
     background-size: 55%;
 }
 
@@ -360,7 +360,7 @@
 
   .main {
     padding: 16px 52% 30px 0;
-    background: top right no-repeat url(img/mainImgmiddle1.svg);
+    background: top right no-repeat url(img/mainimgmiddle1.svg);
     background-size: 52%;
 }
 }
@@ -394,7 +394,7 @@
   .main {
     padding-right: 55%;
     padding-bottom: 5px;
-    background: top right no-repeat url(img/mainImgmiddle1.svg);
+    background: top right no-repeat url(img/mainimgmiddle1.svg);
     background-size: 55%;
 }
 
